@@ -1,8 +1,8 @@
 
 import streamlit as st
 import pandas as pd
-import numpy as np
-import pydeck as pdk
+# import numpy as np
+# import pydeck as pdk
 
 NAVALUES = ['-,']
 DATAFILE = ".\\data\\ET_4.2_JAN_23.xlsx"
