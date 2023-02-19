@@ -1,0 +1,7 @@
+branca==0.3.1
+ellipsis
+folium
+streamlit
+pandas
+numpy
+openpyxl==3.1.0
