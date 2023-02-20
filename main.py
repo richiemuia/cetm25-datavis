@@ -5,7 +5,7 @@ import pandas as pd
 # import pydeck as pdk
 
 NAVALUES = ['-,']
-DATAFILE = ".\\data\\ET_4.2_JAN_23.xlsx"
+DATAFILE = "./data/ET_4.2_JAN_23.xlsx"
 SHEET = "Month (Million m3)"
 # data1 = pd.read_excel(DATAFILE, SHEET,index_col=0,header=6)
 
