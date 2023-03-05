@@ -1,5 +1,6 @@
 streamlit
 pydeck
 pandas
-numpy
+pydeck
+plotly.express
 openpyxl==3.1.0
