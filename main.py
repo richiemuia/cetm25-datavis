@@ -1,7 +1,6 @@
 
 import streamlit as st
 import pandas as pd
-#import numpy as np
 import pydeck as pdk
 from pydeck.types import String
 import math
@@ -55,7 +54,7 @@ with tab1:
 
     st.header("UK Dependancy On Gas for Energy Production")
 
-    st.markdown("Over the last 2 years the UK has become more dependant on GAS to produce  Energy.  It has also become a NET exporter of Electricity.  \n This is due to problems in France with several Nuclear reactors shutdown for long term maintenance. ")
+    st.markdown("Over the last 2 years the UK has become more dependant on GAS to produce  Energy.  It has also become a NET exporter of Electricity. \n\n This is due to problems in France with several Nuclear reactors shutdown for long term maintenance. ")
     st.markdown("Dependancy on Gas is set to continue as renewables (mostly wind) are dependant on weather and geographical demand")
 
 
@@ -133,9 +132,9 @@ with tab2:
 
     # display some contextual narrative around dates.
     if date_select == 'April 2022':
-        narrative = 'pipeline imports were entirely from Norway as interconnectors to Belgium\nand the Netherlands were used to export to EU rather than import due to \nRussian Pipeline shutdown.'
+        narrative = 'pipeline imports were entirely from Norway as interconnectors to Belgium  \nand the Netherlands were used to export to EU rather than import due to  \nRussian Pipeline shutdown.'
     elif date_select == 'March 2022':
-        narrative = 'Due to disputes over Russian Pipeline and War in Ukraine,\nUK stopped importing from Russia'
+        narrative = 'Due to disputes over Russian Pipeline and War in Ukraine,  \nUK stopped importing from Russia'
     elif date_select == 'October 2022':
         narrative = 'First time the UK has imported GAS from Chile'
     else:
@@ -144,7 +143,7 @@ with tab2:
 
     filtered_data4_4 = data4_4.loc[date_select]
     st.header(f"{date_select} : GAS Import to the UK")
-    st.text(narrative)
+    st.markdown(narrative)
 
     # clean up data table, remove non displayed columns
     col_drop2 =['Total pipeline','Total LNG','Total Imports']
