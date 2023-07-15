@@ -1,4 +1,6 @@
-
+# bi02vl
+# Richard Muia
+#  CETM25 Data Visualisation Assignment 2
 import streamlit as st
 import pandas as pd
 import pydeck as pdk
@@ -6,7 +8,7 @@ from pydeck.types import String
 import math
 import plotly.express as px
 
-TEMP = 1 # force update to detect by creating a dummy variable
+
 DATAFILE5_4 = "./data/ET_5.4_JAN_23.xlsx"
 DATAFILE4_4 = "./data/ET_4.4_JAN_23.xlsx"
 SHEET4_4 = "Month (Million m3)"
