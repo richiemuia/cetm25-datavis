@@ -1,8 +1,6 @@
 
 # Information
 
-**Student ID** : bi02vl
-
 **Name :** Richard Muia
 
 **Project:** CETM25 Data Visualisation
